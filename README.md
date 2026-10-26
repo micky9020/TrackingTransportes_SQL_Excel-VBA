@@ -51,9 +51,3 @@ Proyecto base para registrar unidades, programar viajes, guardar novedades de tr
 - Los datos de ubicación son ingresados manualmente. Esto **no** es GPS en tiempo real; para ello se requiere integrar una fuente GPS/API del proveedor de telemetría.
 - El código usa consultas parametrizadas en las inserciones para reducir riesgos de SQL injection.
 - Para uso productivo, agrega roles de base de datos, auditoría, copias de seguridad y validación de datos.
-
-## Publicación en GitHub
-1. Descomprime el ZIP.
-2. Crea un repositorio público o privado en GitHub.
-3. Sube las carpetas `sql`, `excel`, `vba` y este `README.md`.
-4. No subas contraseñas, cadenas con credenciales ni datos reales de conductores/vehículos.
